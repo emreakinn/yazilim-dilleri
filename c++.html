@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="C++ Yazılım Dlili Hakkında Birçok Bilgiye Ulasmak İçin Bu Sayfayı Ziyaret Ediniz">
+    <!-- Css Files -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>C++</title>
+</head>
+
+<body>
+    <header id="header">
+        <section id="navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./img/logo-64x64.avif" alt="Logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav ms-auto gap-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="index.html"><b>ANA
+                                                    SAYFA</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="hakkimda.html"><b>HAKKIMDA</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="portfolyo.html"><b>PORTFOLYO</b></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <b>YAZILIM DİLLERİ</b>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="htmlCss.html"><b>HTML / CSS</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="javascript.html"><b>JAVASCRİPT</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="php.html"><b>PHP</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="phyton.html"><b>PHYTON</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link bgNavy text-white" aria-current="page" href="c++.html"><b>C++</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="java.html"><b>JAVA</b></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="blog.html"><b>BLOG</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="iletisim.html"><b>İLETİŞİM</b></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <hr>
+    <section id="baslik">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Yazılım Dünyasına Adım At!</h1>
+                    <p class="text-white">Kodlama dünyasının temel taşlarını keşfedin ve geleceği inşa edin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="cBanner">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-12">
+                    <h3>C++</h3>
+                    <small><a href="index.html" class="text-white">Anasayfa</a> / <b>C++</b></small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="ornekler">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>C++ ile ilgili kod açıklamaları</h3>
+                    <p class="text-white">Bu bölümde C++ ile ilgili kod örneklerini görebilirsiniz</p>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal1">C++</button>
+                            <hr>
+                            <p>Değişkenler ve Veri Türleri</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal2">C++</button>
+                            <hr>
+                            <p>Kontrol Yapıları ve Döngüler</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal3">C++</button>
+                            <hr>
+                            <p>Fonksiyonlar ve İşlevler</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal4">C++</button>
+                            <hr>
+                            <p>Nesne Tabanlı Programlama (OOP)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal5">C++</button>
+                            <hr>
+                            <p>Bellek Yönetimi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal6">C++</button>
+                            <hr>
+                            <p>Standart Kütüphane (STL)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="galeri">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>C++ ile ilgili görseller</h3>
+                    <p class="text-white">Bu bölümde C++ ile ilgili görselleri görebilirsiniz</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/c-plus-plus-3-400x400.webp" alt="C++ Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/c-plus-plus-1-400x400.webp" alt="C++ Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/c-plus-plus-4-400x400.webp" alt="C++ Gorseller">
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/c-plus-plus-2-400x400.webp" alt="C++ Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/c-plus-plus-5-400x400.webp" alt="C++ Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/c-plus-plus-6-400x400.webp" alt="C++ Gorseller">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="hikaye">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>Michael Lee ( Oyun Motoru Geliştiricisi )</h3>
+                    <p class="text-white">Bu bölümde Michael Lee'nin başarı hikayesini okuyabilirsiniz</p>
+                </div>
+            </div>
+            <div class="row textColor">
+                <div class="col-md-5 m-auto text-center">
+                    <img src="./img/michael-lee-496-744.webp" alt="Michael Lee Görsel">
+                </div>
+                <div class="col-md-7">
+                    <h2>Michael Lee'nin Başarı Hikayesi</h2>
+                    <p>Michael Lee, genç yaşlardan itibaren bilgisayar oyunlarına olan ilgisini yazılımla birleştirdi.
+                        Üniversitede bilgisayar bilimi okurken, oyun motorlarının nasıl çalıştığını öğrenmeye karar
+                        verdi. Ancak mevcut oyun motorlarının genellikle pahalı, karmaşık veya performans açısından
+                        yetersiz olduğunu fark etti.</p>
+                    <h2>İlk Adım: GameCore</h2>
+                    <p>Michael, C++ programlama dilinin güçlü performans özelliklerinden yararlanarak kendi oyun
+                        motorunu geliştirmeye başladı. Amacı, hem yeni başlayanlar hem de profesyonel oyun
+                        geliştiriciler için erişilebilir ve etkili bir araç yaratmaktı. Aylar süren kodlama ve test
+                        süreçlerinin ardından GameCore adını verdiği oyun motorunu tamamladı.</p>
+                    <p>Motor, esnek bir yapıya, optimize edilmiş performansa ve kullanıcı dostu bir arayüze sahipti.
+                        Fizik simülasyonları, ışıklandırma, gölgelendirme ve kolayca özelleştirilebilen oyun mekanikleri
+                        gibi birçok özelliği içeriyordu.</p>
+                    <h2>Başarı Dalgası</h2>
+                    <p>GameCore, oyun geliştiriciler arasında hızla popülerlik kazandı. Özellikle bağımsız
+                        geliştiriciler, Michael’ın oyun motorunu kullanarak kısa sürede etkileyici oyunlar üretmeye
+                        başladılar. Motorun ücretsiz bir temel sürüm ve uygun fiyatlı premium seçeneklerle sunulması,
+                        kullanıcı kitlesini daha da genişletti.</p>
+                    <p>Kısa sürede, GameCore ile geliştirilen oyunlar dünya çapında milyonlarca oyuncuya ulaştı. Motorun
+                        başarısı, Michael’a sadece maddi kazanç değil, aynı zamanda oyun dünyasında bir liderlik
+                        pozisyonu da getirdi.</p>
+                    <h2>Topluluk ve Yatırımlar</h2>
+                    <p>Michael, motorun başarısını daha da büyütmek için bir topluluk oluşturdu. Bu topluluk,
+                        geliştiricilerin birbirleriyle işbirliği yapmasını ve fikir alışverişinde bulunmasını sağladı.
+                        Ayrıca, gelen geri bildirimlerle GameCore sürekli olarak güncellendi ve geliştirildi.</p>
+                    <p>Bir süre sonra, Michael büyük oyun stüdyolarının dikkatini çekti ve GameCore büyük yatırımlar
+                        aldı. Bu yatırımlar, motorun daha da geliştirilmesini ve daha geniş bir pazara yayılmasını
+                        sağladı.</p>
+                    <h2>İlham Veren Bir İsim</h2>
+                    <p>Bugün Michael Lee, oyun geliştirme dünyasında bir ikon haline geldi. GameCore ile binlerce
+                        geliştiricinin hayallerini gerçekleştirmesine yardımcı oldu ve oyun motorları pazarında devrim
+                        yarattı.</p>
+                    <p>Michael, kariyerinin bu aşamasında şu mesajı paylaşıyor:
+                        "En iyi işler, bir problem gördüğünüzde ve çözmek için tutkuyla çalıştığınızda ortaya çıkar.
+                        Oyun motorum, sadece bir yazılım değil; geliştiricilere ve oyunculara verdiğim bir hediye."</p>
+                    <p>Michael’ın hikayesi, yazılım dünyasında büyük etki yaratabilecek fikirlerin bir örneği olarak
+                        anlatılmaya devam ediyor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer id="footer">
+        <section id="topFooter">
+            <div class="container py-5">
+                <div class="row pb-3">
+                    <div class="col-md-3 pb-3">
+                        <a href="index.html">
+                            <img src="./img/logo-128x128.avif" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Sayfalar</h3>
+                        <div class="d-flex flex-column">
+                            <a href="index.html"><i class="bi bi-arrow-right-short"></i>Ana Sayfa</a>
+                            <a href="hakkinda.html"><i class="bi bi-arrow-right-short"></i>Hakkında</a>
+                            <a href="portfolyo.html"><i class="bi bi-arrow-right-short"></i>Portfolyo</a>
+                            <a href="blog.html"><i class="bi bi-arrow-right-short"></i>Blog</a>
+                            <a href="iletisim.html"><i class="bi bi-arrow-right-short"></i>İletişim</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Yazılım Dilleri</h3>
+                        <div class="d-flex flex-column">
+                            <a href="htmlCss.html"><i class="bi bi-arrow-right-short"></i>Html /
+                                Css</a>
+                            <a href="javascript.html"><i class="bi bi-arrow-right-short"></i>Javascript</a>
+                            <a href="php.html"><i class="bi bi-arrow-right-short"></i>Php</a>
+                            <a href="phyton.html"><i class="bi bi-arrow-right-short"></i>Phyton</a>
+                            <a href="c++.html"><i class="bi bi-arrow-right-short"></i>C++</a>
+                            <a href="java.html"><i class="bi bi-arrow-right-short"></i>Java</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <i class="bi bi-telephone"></i> <a href="tel:+905363960486">0536 396
+                                0486</a>
+                        </div>
+                        <div class="py-3">
+                            <i class="bi bi-envelope"></i> <a href="mailto:emreakinn60@gmail.com">emreakinn60@gmail.com</a>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank" class="fs-4"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.x.com" target="_blank" class="fs-4"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://wa.me/+905363960486" target="_blank" class="fs-4"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="bottomFooter">
+            <div class="container">
+                <div class="row textColor pb-3">
+                    <div class="col-md-6">
+                        <small>Her Hakkı Saklıdır c 2025. Site Adı</small>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <small>Web Sitesi <a href="https://www.emreakin.com/" target="_blank" class="text-white"><b>Emre
+                                    Akın</b></a> Tarafından Hazırlanmıştır</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Modal 1 Start-->
+    <div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal1">Değişkenler ve Veri Türleri</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">int</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Tamsayı türünde bir veri tipi.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">float</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Ondalık sayı türünde bir veri tipi.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">double</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Daha yüksek hassasiyetli ondalık sayılar için veri tipi.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">char</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Tek bir karakteri temsil eden veri tipi.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">bool</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">True veya False değerlerini tutar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">string</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Metin verilerini saklamak için veri türü.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">auto</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Değişken türünü otomatik olarak belirler.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">const</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sabit bir değişken tanımlar, değiştirilemez.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">unsigned</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Negatif olmayan tamsayılar için kullanılır.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">sizeof</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir veri tipinin veya değişkenin boyutunu döndürür.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>C++ elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 1 End-->
+    <!-- Modal 2 Start-->
+    <div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal2">Kontrol Yapıları ve Döngüler</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">if</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Belirli bir koşul doğruysa bir blok çalıştırır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">else</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Koşul yanlış olduğunda bir blok çalıştırır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">else if</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Birden fazla koşul kontrol etmek için kullanılır.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">switch</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Çoklu koşulları kontrol etmek için alternatif
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">case</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">switch ifadesinin her bir durumunu belirtir.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">for</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Belirli bir sayı kadar döngü çalıştırır.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">while</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Belirli bir koşul doğru olduğu sürece çalışır.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">do while</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Döngüyü en az bir kez çalıştırır.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">break</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Döngüyü sonlandırır.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">continue</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Döngünün kalanını atlar ve bir sonraki adıma geçer.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>C++ elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 End-->
+    <!-- Modal 3 Start-->
+    <div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal3" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal3">Fonksiyonlar ve İşlevler</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">void</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Değer döndürmeyen bir fonksiyonu belirtir.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">return</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Fonksiyondan bir değer döndürür.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">inline</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Fonksiyonları satır içi tanımlar, performansı artırabilir.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">default</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Fonksiyon parametrelerine varsayılan değerler atar.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">overload</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Aynı isimle birden fazla fonksiyon tanımlama.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">recursive</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Fonksiyonun kendi kendini çağırması.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">static</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Fonksiyonun yaşam süresini tanımlar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">main()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Programın başlangıç noktasıdır.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">argc</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Komut satırı argümanlarının sayısını döndürür.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">argv</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Komut satırı argümanlarını bir dizi olarak tutar.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>C++ elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 End-->
+    <!-- Modal 4 Start-->
+    <div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal4" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal4">Nesne Tabanlı Programlama (OOP)</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">class</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Yeni bir sınıf tanımlamak için kullanılır.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">object</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir sınıfın örneği.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">private</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sadece sınıf içinde erişilebilir nitelikler.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">public</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sınıf dışından erişilebilir nitelikler.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">protected</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Türetilmiş sınıflara erişim sağlar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">constructor</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sınıf oluşturulduğunda çağrılan özel bir fonksiyon.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">destructor</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sınıf nesnesi yok edildiğinde çağrılan özel bir fonksiyon.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">inheritance</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Başka bir sınıfın özelliklerini miras almak.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">polymorphism</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Aynı isimle farklı işlevsellik sunmak.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">virtual</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Türetilmiş sınıflarda yeniden tanımlanabilir fonksiyon.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>C++ elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 End-->
+    <!-- Modal 5 Start-->
+    <div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal5" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal5">Bellek Yönetimi</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">new</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8"> Dinamik bellek tahsisi için kullanılır.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">delete</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dinamik olarak ayrılmış belleği serbest bırakır.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">malloc</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">C stili dinamik bellek tahsisi sağlar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">free</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">malloc ile ayrılmış belleği serbest bırakır.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">calloc</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Belleği sıfırlarla başlatarak ayırır.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">realloc</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bellek boyutunu yeniden düzenler.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">pointer</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir değişkenin bellek adresini tutar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">reference</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir değişkene başka bir ad tanımlar.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">nullptr</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Boş bir işaretçi tanımlar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">this</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Geçerli sınıfın işaretçisini döndürür.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>C++ elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 End-->
+    <!-- Modal 6 Start-->
+    <div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal6">Standart Kütüphane (STL)</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">vector</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dinamik boyutlu dizi.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">map</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Anahtar-değer çiftlerinden oluşan bir veri yapısı.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">set</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Benzersiz öğelerden oluşan sırasız bir koleksiyon.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">stack</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Son giren ilk çıkar (LIFO) prensibine göre çalışan veri yapısı.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">queue</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">İlk giren ilk çıkar (FIFO) prensibine göre
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">priority_queue</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8"> Önceliğe göre sıralı kuyruk.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">pair</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">İki değeri bir çift olarak saklar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">algorithm</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Çeşitli algoritmalar sağlar (örneğin sıralama).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">iterator</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Konteynerler üzerinde dolaşım sağlar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">list</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Çift bağlı liste veri yapısı.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>C++ elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6 End-->
+
+    <!-- Js Files -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,370 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap');
+
+
+
+* {
+    text-decoration: none !important;
+}
+
+.fontSizeS {
+    font-size: 10px;
+}
+
+.fontSizeM {
+    font-size: 12px;
+}
+
+
+body {
+    background-color: #1e1e2f;
+}
+
+hr,
+.textColor {
+    color: #fff4c5;
+}
+
+.bgNavy {
+    background-color: #1e1e2f;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    color: #fff;
+}
+
+#hikaye img {
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
+
+form .form-control {
+    background-color: #1e1e2f;
+    color: #fff4c5;
+    border: 2px solid #000;
+    max-height: 168px;
+}
+
+.form-control::placeholder {
+    color: #fff4c5;
+}
+
+.form-control:focus {
+    background-color: #1e1e2f;
+    color: #fff4c5;
+    border: 2px solid #000;
+    box-shadow: none;
+}
+
+#iletisim .btn {
+    border: 2px solid #000;
+    color: #fff4c5;
+}
+
+#header a,
+a {
+    color: #fff4c5;
+}
+
+#header button {
+    background-color: #fff4c5;
+}
+
+#header a:hover {
+    color: #fff;
+}
+
+#header .dropdown-menu a,
+#header .dropdown-menu a:hover {
+    color: #1e1e2f;
+}
+
+#header .dropdown-menu li {
+    border-bottom: 1px solid #1e1e2f;
+}
+
+.btn {
+    background-color: #1e1e2f;
+    color: #fff;
+    border: 2px solid #646464;
+    padding: 10px 50px;
+}
+
+.btn:hover {
+    background-color: #1e1e2f;
+    color: #fff4c5 !important;
+    border: 2px solid #fff4c5;
+    padding: 10px 50px;
+}
+
+th,
+td {
+    background-color: #1e1e2f !important;
+    color: #fff4c5 !important;
+    border: none;
+}
+
+#popülerDiller b {
+    color: #1e1e2f;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.progress {
+    background-color: transparent !important;
+    border: 1px solid #fff4c5;
+}
+
+.progress-bar {
+    background-color: #fff4c5;
+}
+
+#kariyer img,
+#hakkimda img,
+#hikayeler img {
+    border-radius: 50%;
+}
+
+#yazilimDilleri img,
+#blogYazilari img,
+#galeri img {
+    border-radius: 4px;
+}
+
+#BlogPage img {
+    border-radius: 8px;
+}
+
+#yazilimDilleri li {
+    background-color: #1e1e2f;
+    color: #fff4c5;
+}
+
+.card {
+    background-color: #1e1e2f;
+    color: #fff4c5;
+    border: 2px solid #646464;
+    border-radius: 6px;
+}
+
+#footer i {
+    padding-right: 10px;
+    color: #fff4c5;
+}
+
+#hakkimdaBanner,
+#blogBanner,
+#iletisimBanner,
+#portfolyoBanner,
+#futbolunGelecegiBanner,
+#freelanceBanner,
+#nostaljikBanner,
+#oyunDunyasiBanner,
+#phytonVeriBilimiBanner,
+#webSitesiBanner {
+    padding: 235px 0;
+    text-align: center;
+    background-image: url(../img/banner-gorsel-1920x550.avif);
+}
+
+#htmlCssBanner {
+    padding: 235px 0;
+    text-align: center;
+    background-image: url(../img/html-css-1920x550.webp);
+}
+
+#cBanner {
+    padding: 235px 0;
+    text-align: center;
+    background-image: url(../img/c-plus-plus-1920x550.avif);
+}
+
+#javaBanner {
+    padding: 235px 0;
+    text-align: center;
+    background-image: url(../img/java-1920x550.avif);
+}
+
+#javascriptBanner {
+    padding: 235px 0;
+    text-align: center;
+    background-image: url(../img/javascript-1920x550.avif);
+}
+
+#phpBanner {
+    padding: 235px 0;
+    text-align: center;
+    background-image: url(../img/php-1920x550.avif);
+}
+
+#phytonBanner {
+    padding: 235px 0;
+    text-align: center;
+    background-image: url(../img/phyton-1920x550.avif);
+}
+
+.modal-content {
+    background-color: #1e1e2f !important;
+    color: #fff4c5;
+    border: 2px solid white;
+}
+
+.modal-header h3,
+.modal hr {
+    color: #fff;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: start;
+}
+
+
+.modalBilgi,
+.bilgiRow {
+    display: flex;
+}
+
+.btn-close {
+    background-color: #fff4c5;
+}
+
+@media(max-width:769px) {
+
+    #header a {
+        color: #fff4c5 !important;
+        text-align: end;
+    }
+
+    #header .dropdown-menu {
+        background-color: transparent;
+    }
+
+    #header .dropdown-menu a {
+        font-size: 12px;
+    }
+
+    #header ul {
+        gap: 1px !important;
+    }
+
+    #hakkimdaBanner,
+    #blogBanner,
+    #iletisimBanner,
+    #portfolyoBanner,
+    #futbolunGelecegiBanner,
+    #freelanceBanner,
+    #nostaljikBanner,
+    #oyunDunyasiBanner,
+    #phytonVeriBilimiBanner,
+    #webSitesiBanner {
+        background-image: url(../img/banner-gorsel-430x530.avif);
+    }
+
+    #htmlCssBanner {
+        background-image: url(../img/html-css-430x530.avif);
+    }
+
+    #cBanner {
+        background-image: url(../img/c-plus-plus-430x530.avif);
+    }
+
+    #javaBanner {
+        background-image: url(../img/java-430x530.avif);
+    }
+
+    #javascriptBanner {
+        background-image: url(../img/javascript-430x530.avif);
+    }
+
+    #phpBanner {
+        background-image: url(../img/php-430x530.avif);
+    }
+
+    #phytonBanner {
+        background-image: url(../img/phyton-430x530.avif);
+    }
+
+    .progress-bar b {
+        font-weight: 600 !important;
+        font-size: 10px !important;
+    }
+
+    #hakkimda .row,
+    #kariyer .row:nth-of-type(1),
+    #ornekler .row:nth-of-type(2),
+    #ornekler .row:nth-of-type(3),
+    #galeri .row:nth-of-type(2),
+    #galeri .row:nth-of-type(3) {
+        gap: 24px;
+    }
+
+    #hikayeler .col-md-6:nth-of-type(2),
+    #topFooter .col-md-3:nth-of-type(3),
+    #topFooter .col-md-3:nth-of-type(4),
+    #yazilimDilleri .col-md-4:nth-of-type(2),
+    #yazilimDilleri .col-md-4:nth-of-type(3),
+    #portfolyo .col-md-6:nth-of-type(2),
+    #portfolyo .col-md-6:nth-of-type(4),
+    #blogYazilari .col-md-8,
+    #iletisim .row:nth-of-type(2) .col-md-6:nth-child(1) .row:nth-of-type(2) .col-md-6:nth-child(2),
+    #iletisim .row:nth-of-type(2) .col-md-6:nth-child(2) form,
+    #hikayeler .col-md-10 {
+        padding-top: 24px;
+    }
+
+    #ornekler .row:nth-of-type(2) p,
+    #ornekler .row:nth-of-type(3) p,
+    #kariyer .col-md-4,
+    #hikayeler .col-md-10,
+    #hikaye {
+        text-align: center;
+    }
+
+    .modalBilgi {
+        display: flex;
+        gap: 10px;
+    }
+
+    .bilgiRow {
+        display: flex;
+        padding-bottom: 24px;
+        gap: 10px;
+    }
+
+    .modalBilgi .col-md-3 {
+        width: 35%;
+        margin: auto;
+    }
+
+    .modalBilgi .col-md-1 {
+        width: 5%;
+        margin: auto;
+    }
+
+    .modalBilgi .col-md-8 {
+        width: 60%;
+    }
+
+    #hikaye .col-md-5 img,
+    #BlogPage img {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    .modal-body .col-md-6 {
+        padding-bottom: 24px;
+    }
+
+    #bottomFooter .col-md-6,
+    #iletisim .row:nth-of-type(2) .col-md-6:nth-child(2) .col-md-4 {
+        text-align: center !important;
+    }
+
+    .btn-close {
+        background-color: #fff4c5;
+    }
+}

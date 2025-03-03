@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Html ve Css Yazılım Dlili Hakkında Birçok Bilgiye Ulasmak İçin Bu Sayfayı Ziyaret Ediniz">
+    <!-- Css Files -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Html-Css</title>
+</head>
+
+<body>
+    <header id="header">
+        <section id="navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./img/logo-64x64.avif" alt="Logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav ms-auto gap-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="index.html"><b>ANA
+                                                    SAYFA</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="hakkimda.html"><b>HAKKIMDA</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="portfolyo.html"><b>PORTFOLYO</b></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <b>YAZILIM DİLLERİ</b>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a class="nav-link bgNavy text-white" aria-current="page" href="htmlCss.html"><b>HTML / CSS</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="javascript.html"><b>JAVASCRİPT</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="php.html"><b>PHP</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="phyton.html"><b>PHYTON</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="c++.html"><b>C++</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="java.html"><b>JAVA</b></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="blog.html"><b>BLOG</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="iletisim.html"><b>İLETİŞİM</b></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <hr>
+    <section id="baslik">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Yazılım Dünyasına Adım At!</h1>
+                    <p class="text-white">Kodlama dünyasının temel taşlarını keşfedin ve geleceği inşa edin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="htmlCssBanner">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-12">
+                    <h3>HTML / CSS</h3>
+                    <small><a href="index.html" class="text-white">Anasayfa</a> / <b>HTML / CSS</b></small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="ornekler">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>HTML / CSS ile ilgili kod açıklamaları</h3>
+                    <p class="text-white">Bu bölümde HTML / CSS ile ilgili kod örneklerini görebilirsiniz</p>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal1">HTML / CSS</button>
+                            <hr>
+                            <p>Yapı ve İçerik Yönetimi Elemanları</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal2">HTML / CSS</button>
+                            <hr>
+                            <p>Etkileşim ve Medya Elemanları</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal3">HTML / CSS</button>
+                            <hr>
+                            <p>Renk ve Arka Plan Yönetimi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal4">HTML / CSS</button>
+                            <hr>
+                            <p>Yerleşim ve Hizalama</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal5">HTML / CSS</button>
+                            <hr>
+                            <p>Kenar Boşlukları ve Çerçeve</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal6">HTML / CSS</button>
+                            <hr>
+                            <p>Yazı Tipi ve Metin Biçimlendirme</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="galeri">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>HTML / CSS ile ilgili görseller</h3>
+                    <p class="text-white">Bu bölümde HTML / CSS ile ilgili görselleri görebilirsiniz</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/html-css-1-400x400.webp" alt="Html / Css Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/html-css-2-400x400.webp" alt="Html / Css Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/html-css-3-400x400.webp" alt="Html / Css Gorseller">
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/html-css-4-400x400.webp" alt="Html / Css Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/html-css-5-400x400.webp" alt="Html / Css Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/html-css-6-400x400.webp" alt="Html / Css Gorseller">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="hikaye">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>John Doe ( UI/UX Tasarımcısı olarak çalışmaktadır )</h3>
+                    <p class="text-white">Bu bölümde John Deo'nin başarı hikayesini okuyabilirsiniz</p>
+                </div>
+            </div>
+            <div class="row textColor">
+                <div class="col-md-5 text-center">
+                    <img src="./img/john-doe-496-744.webp" alt="John Doe Gorsel">
+                </div>
+                <div class="col-md-7 m-auto">
+                    <h2>John Doe’nun Başarı Hikayesi</h2>
+                    <p>John, web tasarım dünyasına adım attığında, HTML ve CSS hakkında hiçbir şey bilmiyordu. Ancak, bu
+                        iki temel dili öğrenmek için kararlılıkla çalışmaya başladı. Online kurslar, YouTube videoları
+                        ve ücretsiz kaynaklar sayesinde kısa sürede temel bilgileri kavradı. Öğrendiklerini pratiğe
+                        dökmek için her gün birkaç saatini ayırarak küçük projeler üzerinde çalıştı.</p>
+                    <p>İlk başlarda, basit bir portföy sitesi oluşturdu. Bu portföy sitesinde, kendini tanıtan bir giriş
+                        bölümü, yaptığı projelerin özetleri ve iletişim bilgilerini yer aldı. Tasarımı sade ama
+                        kullanıcı dostu olan bu site, birçok kişinin dikkatini çekti.</p>
+                    <h2>İş Teklifi ve Yeni Başlangıçlar</h2>
+                    <p>Portföyünü LinkedIn profilinde paylaşan John, bir teknoloji firmasından beklenmedik bir iş
+                        teklifi aldı. Bu firma, kullanıcı arayüzü tasarımında yetenekli birine ihtiyaç duyuyordu.
+                        John’un portföyündeki dikkat çekici tasarım ve düzen, firmanın ilgisini çekti.</p>
+                    <p>John, firmada çalışmaya başladıktan sonra CSS animasyonları, kullanıcı deneyimi (UX) tasarımı ve
+                        mobil uyumlu tasarımlar gibi daha gelişmiş teknikleri öğrenmeye devam etti. Ekip arkadaşlarıyla
+                        iş birliği içinde çalışarak, firmanın web projelerinde önemli bir rol oynadı.</p>
+                    <h2>İlham Veren Bir Hikaye</h2>
+                    <p>John, şimdi dünya çapında tanınan bir UI/UX tasarımcısı. Kariyerindeki bu başarıyı yalnızca HTML
+                        ve CSS bilgisiyle başarmış olması, onu birçok yeni başlayan için bir ilham kaynağı haline
+                        getirdi. "Bir şeyler yaratmak için her zaman en karmaşık araçlara veya yazılımlara ihtiyacınız
+                        yok," diyor John. "Sadece başlamak ve öğrenmeye devam etmek yeterli."</p>
+                    <p>Kariyerindeki bu dönüm noktası, John'un hayalini gerçekleştirmesini sağladı ve bugün dünya
+                        çapında konferanslarda konuşmalar yaparak kendi hikayesini paylaşıyor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer id="footer">
+        <section id="topFooter">
+            <div class="container py-5">
+                <div class="row pb-3">
+                    <div class="col-md-3 pb-3">
+                        <a href="index.html">
+                            <img src="./img/logo-128x128.avif" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Sayfalar</h3>
+                        <div class="d-flex flex-column">
+                            <a href="index.html"><i class="bi bi-arrow-right-short"></i>Ana Sayfa</a>
+                            <a href="hakkinda.html"><i class="bi bi-arrow-right-short"></i>Hakkında</a>
+                            <a href="portfolyo.html"><i class="bi bi-arrow-right-short"></i>Portfolyo</a>
+                            <a href="blog.html"><i class="bi bi-arrow-right-short"></i>Blog</a>
+                            <a href="iletisim.html"><i class="bi bi-arrow-right-short"></i>İletişim</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Yazılım Dilleri</h3>
+                        <div class="d-flex flex-column">
+                            <a href="htmlCss.html"><i class="bi bi-arrow-right-short"></i>Html /
+                                Css</a>
+                            <a href="javascript.html"><i class="bi bi-arrow-right-short"></i>Javascript</a>
+                            <a href="php.html"><i class="bi bi-arrow-right-short"></i>Php</a>
+                            <a href="phyton.html"><i class="bi bi-arrow-right-short"></i>Phyton</a>
+                            <a href="c++.html"><i class="bi bi-arrow-right-short"></i>C++</a>
+                            <a href="java.html"><i class="bi bi-arrow-right-short"></i>Java</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <i class="bi bi-telephone"></i> <a href="tel:+905363960486">0536 396
+                                0486</a>
+                        </div>
+                        <div class="py-3">
+                            <i class="bi bi-envelope"></i> <a href="mailto:emreakinn60@gmail.com">emreakinn60@gmail.com</a>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank" class="fs-4"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.x.com" target="_blank" class="fs-4"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://wa.me/+905363960486" target="_blank" class="fs-4"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="bottomFooter">
+            <div class="container">
+                <div class="row textColor pb-3">
+                    <div class="col-md-6">
+                        <small>Her Hakkı Saklıdır c 2025. Site Adı</small>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <small>Web Sitesi <a href="https://www.emreakin.com/" target="_blank" class="text-white"><b>Emre
+                                    Akın</b></a> Tarafından Hazırlanmıştır</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Modal 1 Start-->
+    <div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal1">Yapı ve İçerik Yönetimi Elemanları </h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">html</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sayfanın kök öğesidir ve tüm HTML içeriğini kapsar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">head</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Meta bilgiler, stil dosyaları ve scriptler gibi döküman bilgilerini içerir.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">body</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Görünür içeriğin ve sayfa elemanlarının bulunduğu ana bölüm.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">div</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Genel amaçlı konteyner; içerikleri gruplandırmak için kullanılır.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">section</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Belirli bir tema veya işlevle ilgili içerikleri gruplar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">header</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sayfanın veya bir bölümün başlık kısmını belirtir.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">footer</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sayfanın veya bir bölümün alt bilgisini belirtir.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">article</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bağımsız, kendi başına anlamlı içerik bloğunu tanımlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">aside</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Ana içeriğe ek veya tamamlayıcı bilgi sağlar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">main</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sayfanın ana içeriğini belirtir.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>HTML / CSS elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp"
+                            class="text-white">Daha Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 1 End-->
+    <!-- Modal 2 Start-->
+    <div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal2">Etkileşim ve Medya Elemanları</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">a</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sayfa içi veya dışına bağlantı ekler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">button</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Etkileşimli bir buton oluşturur.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">input</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Kullanıcıdan veri girişi almak için kullanılan çok yönlü bir eleman.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">form</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Veri toplamak ve sunucuya göndermek için kullanılır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">img</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sayfaya görsel eklemek için kullanılır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">video</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sayfada video oynatmak için kullanılır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">audio</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sayfada ses dosyası oynatmak için kullanılır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">label</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Form elemanlarını tanımlamak için kullanılır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">select</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Açılır liste oluşturur; kullanıcı bir seçim yapabilir.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">textarea</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Çok satırlı metin girişi alanı oluşturur.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>HTML / CSS elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp"
+                            class="text-white">Daha Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 End-->
+    <!-- Modal 3 Start-->
+    <div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal3" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal3">Renk ve Arka Plan Yönetimi</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">color</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Metin rengini belirler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">background-color</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın arka plan rengini ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3 fontSizeM">background-image</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Arka plana bir resim yerleştirir.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3 fontSizeM">background-position</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Arka plan resminin pozisyonunu ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">background-size</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Arka plan resminin boyutlarını belirler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">opacity</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın saydamlık derecesini ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">box-shadow</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Eleman için gölge efekti oluşturur.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">text-shadow</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Metin için gölge efekti oluşturur.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">background-clip</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Arka planın hangi alanlara uygulanacağını belirler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">background-repeat</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Arka plan resminin tekrar edilip edilmeyeceğini ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>HTML / CSS elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp"
+                            class="text-white">Daha Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 End-->
+    <!-- Modal 4 Start-->
+    <div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal4" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal4">Yerleşim ve Hizalama</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">display</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın nasıl gösterileceğini tanımlar (block, inline, flex vb.).</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">flex-direction</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Flex kutusundaki elemanların yönünü belirler (row, column vb.).</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">align-items</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Flex kutusundaki elemanların dikey hizalamasını ayarlar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">justify-content</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Flex kutusundaki elemanların yatay hizalamasını ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">position</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın konumlandırma türünü tanımlar (static, relative, absolute, fixed).</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">top-bottom</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın üstten veya alttan uzaklığını belirler (position:relative/absolute ile kullanılır).</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">right-left</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın sağdan veya soldan uzaklığını ayarlar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">z-index</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanların yığılma düzenini belirler.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">float</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanı sola veya sağa hizalar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">clear</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Yüzen (float) elemanların yanına içerik yerleşimini engeller.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>HTML / CSS elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp"
+                            class="text-white">Daha Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 End-->
+    <!-- Modal 5 Start-->
+    <div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal5" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal5">Kenar Boşlukları ve Çerçeve</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">margin</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Eleman ile dışındaki içerik arasındaki boşluğu ayarlar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">padding</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Eleman içeriği ile kenarları arasındaki boşluğu ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">border</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın kenarına çerçeve ekler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">border-radius</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Çerçevenin köşelerini yuvarlatır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">width</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın genişliğini belirler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">height</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın yüksekliğini ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">max-width</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın maksimum genişliğini belirler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">max-height</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın maksimum yüksekliğini ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">box-sizing</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Elemanın genişlik ve yükseklik hesaplamasına padding ve borderdahil edilip edilmeyeceğini belirler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">outline</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Eleman çevresine dış çerçeve ekler (border'dan farklı).</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>HTML / CSS elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp"
+                            class="text-white">Daha Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 End-->
+    <!-- Modal 6 Start-->
+    <div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal6">Yazı Tipi ve Metin Biçimlendirme</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">font-family</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Yazı tipini belirler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">font-size</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Yazı boyutunu ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">font-weight</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Yazının kalınlık derecesini tanımlar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">letter-spacing</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Harfler arasındaki boşluğu ayarlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">line-height</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Satır yüksekliğini belirler.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">text-align</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Metni hizalar (left, right, center, justify).</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">text-decoration</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Metne alt çizgi, üst çizgi vb. ekler veya kaldırır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">text-transform</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Metni büyük/küçük harfe çevirir veya normalleştirir.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">white-space</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Boşlukların ve satır sonlarının nasıl işlendiğini belirler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">font-style</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Yazının eğik olup olmadığını belirler (normal, italic).</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>HTML / CSS elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp"
+                            class="text-white">Daha Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6 End-->
+
+    <!-- Js Files -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

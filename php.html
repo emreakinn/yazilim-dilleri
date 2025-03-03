@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Php Yazılım Dlili Hakkında Birçok Bilgiye Ulasmak İçin Bu Sayfayı Ziyaret Ediniz">
+    <!-- Css Files -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Php</title>
+</head>
+
+<body>
+    <header id="header">
+        <section id="navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 px-0">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./img/logo-64x64.avif" alt="Logo">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav ms-auto gap-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="index.html"><b>ANA
+                                                    SAYFA</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="hakkimda.html"><b>HAKKIMDA</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="portfolyo.html"><b>PORTFOLYO</b></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <b>YAZILIM DİLLERİ</b>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="htmlCss.html"><b>HTML / CSS</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="javascript.html"><b>JAVASCRİPT</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link bgNavy text-white" aria-current="page" href="php.html"><b>PHP</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="phyton.html"><b>PHYTON</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="c++.html"><b>C++</b></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" href="java.html"><b>JAVA</b></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="blog.html"><b>BLOG</b></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="iletisim.html"><b>İLETİŞİM</b></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <hr>
+    <section id="baslik">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Yazılım Dünyasına Adım At!</h1>
+                    <p class="text-white">Kodlama dünyasının temel taşlarını keşfedin ve geleceği inşa edin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="phpBanner">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-12">
+                    <h3>PHP</h3>
+                    <small><a href="index.html" class="text-white">Anasayfa</a> / <b>PHP</b></small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="ornekler">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>PHP ile ilgili kod açıklamaları</h3>
+                    <p class="text-white">Bu bölümde PHP ile ilgili kod örneklerini görebilirsiniz</p>
+                </div>
+            </div>
+            <div class="row pb-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal1">PHP</button>
+                            <hr>
+                            <p>Değişkenler ve Veri Türleri</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal2">PHP</button>
+                            <hr>
+                            <p>Kontrol Yapıları</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal3">PHP</button>
+                            <hr>
+                            <p>Fonksiyonlar ve Metotlar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal4">PHP</button>
+                            <hr>
+                            <p>Diziler ve Veri Yapıları</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal5">PHP</button>
+                            <hr>
+                            <p>Form İşleme ve Giriş/Çıkış</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <button type="button" class="btn w-100 mb-3" data-bs-toggle="modal" data-bs-target="#modal6">PHP</button>
+                            <hr>
+                            <p>Veritabanı İşlemleri</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="galeri">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>PHP ile ilgili görseller</h3>
+                    <p class="text-white">Bu bölümde PHP ile ilgili görselleri görebilirsiniz</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/php-5-400x400.webp" alt="Php Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/php-1-400x400.webp" alt="Php Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/php-3-400x400.webp" alt="Php Gorseller">
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/php-4-400x400.webp" alt="Php Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/php-2-400x400.webp" alt="Php Gorseller">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/php-6-400x400.webp" alt="Php Gorseller">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="hikaye">
+        <div class="container py-5">
+            <div class="row text-center pb-3">
+                <div class="col-12">
+                    <h3>Sarah Adams ( CMS Geliştiricisi )</h3>
+                    <p class="text-white">Bu bölümde Sarah Adams'in başarı hikayesini okuyabilirsiniz</p>
+                </div>
+            </div>
+            <div class="row textColor">
+                <div class="col-md-5 m-auto text-center">
+                    <img src="./img/sarah-adams-496-744.webp" alt="Sarah Adams Profil Gorseli">
+                </div>
+                <div class="col-md-7">
+                    <h2>Sarah Adams'ın Başarı Hikayesi</h2>
+                    <p>Sarah Adams, küçük işletmelerin dijital varlıklarını yönetmekte zorlandığını fark etti. Büyük
+                        içerik yönetim sistemleri (CMS) genellikle karmaşık ve pahalıydı, bu da özellikle teknik bilgisi
+                        sınırlı olan işletme sahipleri için bir sorun oluşturuyordu. Sarah, bu boşluğu doldurabilecek
+                        basit, etkili ve uygun maliyetli bir çözüm geliştirmeye karar verdi.</p>
+                    <h2>İlk Adım: EasyManage CMS</h2>
+                    <p>Sarah, PHP’nin esnekliğini kullanarak EasyManage adını verdiği içerik yönetim sistemini
+                        tasarlamaya başladı. Bu sistem, kullanıcı dostu bir arayüz, hızlı yükleme süreleri ve
+                        işletmelerin web sitelerini kolayca özelleştirebilmesine olanak tanıyan modüler bir yapı
+                        içeriyordu. Ayrıca, sistem küçük işletmelerin SEO optimizasyonu yapmasına ve blog, ürün
+                        sayfaları gibi temel özellikleri zahmetsizce eklemesine olanak tanıyordu.</p>
+                    <h2>Başarıya Giden Yol</h2>
+                    <p>Sarah’ın CMS’i kısa sürede dikkat çekmeye başladı. İlk olarak yerel küçük işletmeler arasında
+                        popüler oldu. Müşteriler, sistemin kullanım kolaylığını ve iş süreçlerini hızlandıran etkisini
+                        övgüyle karşıladı. Müşterilerin tavsiyeleri sayesinde, EasyManage CMS ulusal düzeyde hızla
+                        yayıldı.</p>
+                    <p>Bir süre sonra, Sarah CMS’in premium özelliklerini ve destek hizmetlerini sunarak iş modelini
+                        genişletti. Bu özellikler arasında çok dilli destek, gelişmiş analitik araçlar ve e-ticaret
+                        entegrasyonları yer aldı.</p>
+                    <h2>Küresel Bir Başarı</h2>
+                    <p>EasyManage CMS’in başarısı sınırları aştı. Küçük işletmeler için uygun maliyetli ve etkili bir
+                        çözüm arayan kullanıcılar, Sarah’ın sistemini tercih etti. CMS, 100’den fazla ülkede binlerce
+                        işletme tarafından kullanılmaya başlandı.</p>
+                    <p>Sarah, başarısını sürdürülebilir kılmak için sürekli geri bildirim toplayarak sistemini
+                        geliştirdi. Ayrıca, iş ortaklıkları kurarak daha geniş bir müşteri kitlesine ulaşmayı başardı.
+                    </p>
+                    <h2>İlham Veren Bir Girişimci</h2>
+                    <p>Bugün Sarah Adams, teknoloji dünyasında küçük işletmelerin dijitalleşmesine öncülük eden bir
+                        girişimci olarak tanınıyor. EasyManage CMS, sadece bir yazılım değil, aynı zamanda işletmelerin
+                        büyümesine ve çevrimiçi varlıklarını güçlendirmesine yardımcı olan bir araç haline geldi.</p>
+                    <p>Sarah, başarı hikayesini şöyle özetliyor:
+                        "Başarının anahtarı, gerçek bir sorunu tespit edip, basit ama etkili bir çözüm sunmaktır.
+                        EasyManage, küçük işletmelerin dijital dünyada rekabet edebilmesine katkı sağlayan bir araç
+                        oldu. Bu, benim için en büyük ödül."</p>
+                    <p>Sarah’ın hikayesi, girişimcilerin tutkuyla başladıkları projelerle nasıl büyük farklar
+                        yaratabileceğini gösteriyor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer id="footer">
+        <section id="topFooter">
+            <div class="container py-5">
+                <div class="row pb-3">
+                    <div class="col-md-3 pb-3">
+                        <a href="index.html">
+                            <img src="./img/logo-128x128.avif" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Sayfalar</h3>
+                        <div class="d-flex flex-column">
+                            <a href="index.html"><i class="bi bi-arrow-right-short"></i>Ana Sayfa</a>
+                            <a href="hakkinda.html"><i class="bi bi-arrow-right-short"></i>Hakkında</a>
+                            <a href="portfolyo.html"><i class="bi bi-arrow-right-short"></i>Portfolyo</a>
+                            <a href="blog.html"><i class="bi bi-arrow-right-short"></i>Blog</a>
+                            <a href="iletisim.html"><i class="bi bi-arrow-right-short"></i>İletişim</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Yazılım Dilleri</h3>
+                        <div class="d-flex flex-column">
+                            <a href="htmlCss.html"><i class="bi bi-arrow-right-short"></i>Html /
+                                Css</a>
+                            <a href="javascript.html"><i class="bi bi-arrow-right-short"></i>Javascript</a>
+                            <a href="php.html"><i class="bi bi-arrow-right-short"></i>Php</a>
+                            <a href="phyton.html"><i class="bi bi-arrow-right-short"></i>Phyton</a>
+                            <a href="c++.html"><i class="bi bi-arrow-right-short"></i>C++</a>
+                            <a href="java.html"><i class="bi bi-arrow-right-short"></i>Java</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <i class="bi bi-telephone"></i> <a href="tel:+905363960486">0536 396
+                                0486</a>
+                        </div>
+                        <div class="py-3">
+                            <i class="bi bi-envelope"></i> <a href="mailto:emreakinn60@gmail.com">emreakinn60@gmail.com</a>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="fs-4"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank" class="fs-4"><i class="bi bi-instagram"></i></a>
+                            <a href="https://www.x.com" target="_blank" class="fs-4"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://wa.me/+905363960486" target="_blank" class="fs-4"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="bottomFooter">
+            <div class="container">
+                <div class="row textColor pb-3">
+                    <div class="col-md-6">
+                        <small>Her Hakkı Saklıdır c 2025. Site Adı</small>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <small>Web Sitesi <a href="https://www.emreakin.com/" target="_blank" class="text-white"><b>Emre
+                                    Akın</b></a> Tarafından Hazırlanmıştır</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Modal 1 Start-->
+    <div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal1">Değişkenler ve Veri Tipleri ile İlgili Kodlar</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Değişken tanımlamak için kullanılır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$int</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Tamsayı türünde bir değişkeni ifade eder.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$float</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Ondalıklı sayılar için bir değişken.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$string</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Metin tutan bir değişken türüdür.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$bool</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Boolean veri türü (true/false).</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dizi (array) tanımlamak için kullanılır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">NULL</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Değeri olmayan bir değişkeni ifade eder.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">isset()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Değişkenin tanımlı olup olmadığını kontrol eder.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">unset()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir değişkeni yok eder.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">const</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sabit bir değer tanımlamak için kullanılır.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>PHP elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 1 End-->
+    <!-- Modal 2 Start-->
+    <div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal2">Kontrol Yapıları</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">if</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Belirli bir koşulu kontrol etmek için kullanılır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">else</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">if koşulu sağlanmazsa çalışır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">else-if</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Birden fazla koşulu kontrol etmek için kullanılır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">switch</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Birden fazla değeri karşılaştırmak için kullanılır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">case</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">switch yapısında belirli bir durumu belirtir.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">break</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Döngüden veya switch yapısından çıkmak için kullanılır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">while</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Belirli bir koşul doğru olduğu sürece çalışır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">for</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Belirli bir döngü sayısında çalışır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">foreach</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Diziler üzerinde döngü yapmak için kullanılır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">continue</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Döngünün kalanını atlayıp sonraki adımı çalıştırır.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>PHP ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha Fazla
+                            Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 End-->
+    <!-- Modal 3 Start-->
+    <div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal3" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal3">Fonksiyonlar ve Metotlar</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">function</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Yeni bir fonksiyon tanımlamak için kullanılır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">return</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Fonksiyondan bir değer döndürür.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">include</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Harici bir PHP dosyasını dahil eder.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">require</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Harici bir PHP dosyasını dahil eder; hata durumunda çalışmayı durdurur.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">include_once</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Harici bir dosyayı bir kez dahil eder.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">require_once</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Harici bir dosyayı bir kez dahil eder; hata durumunda çalışmayı durdurur.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">isset()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Değişkenin tanımlı olup olmadığını kontrol eder.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">empty()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Değişkenin boş olup olmadığını kontrol eder.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array_key_exists()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dizide belirtilen anahtarın mevcut olup olmadığını kontrol eder.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">call_user_func()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir fonksiyonu dinamik olarak çağırır.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>PHP elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 End-->
+    <!-- Modal 4 Start-->
+    <div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal4" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal4">Diziler ve Veri Yapıları</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir dizi oluşturur.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">count()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dizideki eleman sayısını döndürür.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array_push()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Diziye bir eleman ekler.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array_pop()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dizinin son elemanını kaldırır.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array_shift()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dizinin ilk elemanını kaldırır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array_unshift()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Diziye eleman ekler (başına).</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">in_array()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir değerin dizide olup olmadığını kontrol eder.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array_merge()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">İki veya daha fazla diziyi birleştirir.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array_keys()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dizinin tüm anahtarlarını döndürür.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">array_values()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Dizinin tüm değerlerini döndürür.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>PHP elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 End-->
+    <!-- Modal 5 Start-->
+    <div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal5" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal5">Form İşleme ve Giriş/Çıkış</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$_POST</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">HTTP POST ile gönderilen verileri tutar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$_GET</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">HTTP GET ile gönderilen verileri tutar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$_REQUEST</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">POST ve GET ile gönderilen verileri tutar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$_SESSION</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Oturum değişkenlerini yönetir.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">$_COOKIE</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Kullanıcı tanımlı çerezleri yönetir.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">file_get_contents()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir dosyanın içeriğini okur.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">file_put_contents()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir dosyaya veri yazar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">fopen()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Bir dosyayı açar veya oluşturur.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">fwrite()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Açık bir dosyaya veri yazar.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">fclose()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Açık bir dosyayı kapatır.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>PHP elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 End-->
+    <!-- Modal 6 Start-->
+    <div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal6" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal6">Veritabanı İşlemleri</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">mysqli_connect()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">MySQL veritabanına bağlanır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">mysqli_query()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Veritabanına bir sorgu gönderir.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3 fontSizeM">mysqli_fetch_assoc()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sorgu sonucunu bir ilişkisel dizi olarak döndürür.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3 fontSizeM">mysqli_fetch_array()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Sorgu sonucunu bir dizi olarak döndürür.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">mysqli_close()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8"> Veritabanı bağlantısını kapatır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">PDO</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Veritabanı işlemleri için bir sınıf.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">prepare()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">SQL sorgularını hazırlamak için kullanılır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">bindParam()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Hazırlanan sorguya parametre bağlar.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">execute()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">THazırlanan sorguyu çalıştırır.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modalBilgi">
+                                <div class="col-md-3">lastInsertId()</div>
+                                <div class="col-md-1"><i class="bi bi-arrow-right-square-fill"></i></div>
+                                <div class="col-md-8">Son eklenen kaydın ID’sini döndürür.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>PHP elementleri ile ilgili kodların açıklamalarını burada görebilirsiniz. <a href="https://www.w3schools.com/css/css_border.asp" class="text-white">Daha
+                            Fazla Bilgi</a>
+                        bilgi için Tıklayın
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6 End-->
+
+    <!-- Js Files -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
